@@ -1,8 +1,8 @@
 # KnightTravails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/knight_travails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A gem which shows the shortest possible path from a starting point to an end point
+on a 8x8 grid w/ a knight chess piece. The knight can only move the same way a standard
+knight chess piece can.
 
 ## Installation
 
@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+* Ensure to require 'knight_travails'
+* To play around with it you can use the following:
+    $ test = KnightTravails::Knight.new
+    $ test.knight_move([3, 3], [7, 7])
+    $ test.knight_move([0, 0], [3, 2])
 
 ## Development
 
